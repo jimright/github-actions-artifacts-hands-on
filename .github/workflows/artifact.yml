@@ -36,6 +36,6 @@ jobs:
       # Optional. Default is $GITHUB_WORKSPACE
         path: ./artifacts
 
-    - name: Display contents of file
+    - name: Display contents of the text file
       run: cat ./artifacts/hello.txt
   
